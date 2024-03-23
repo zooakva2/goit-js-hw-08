@@ -1,14 +1,21 @@
+/* CSS */
 .gallery {
   display: flex;
-  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
   padding: 0;
 }
 
-.gallery li {
-  margin-right: 10px;
+.gallery-item {
+  margin-bottom: 20px;
 }
 
-.gallery img {
-  max-width: 100%;
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-image {
+  width: 300px;
   height: auto;
 }
